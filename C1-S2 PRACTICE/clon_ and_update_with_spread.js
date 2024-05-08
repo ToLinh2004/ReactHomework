@@ -37,7 +37,7 @@ let students = [
   console.log(students);
   
   // Update the grade of the student with ID 2 to "A"
-  let updatedStudents = updateStudentGrade(students, 4, "A");
+  let updatedStudents = updateStudentGrade(students, 2, "A");
   
   // Updated array of students
   console.log("\nUpdated students array:");
