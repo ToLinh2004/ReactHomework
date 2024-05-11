@@ -1,0 +1,49 @@
+:root {
+    --main-color: rgb(29, 40, 66);
+    --warning-color: rgb(255, 169, 119);
+    --grey-color: rgb(200, 200, 200);
+  }
+  
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto Slab", sans-serif;
+    background-color: var(--main-color-light);
+    color: #0e1238;
+  }
+  
+  h1 {
+    padding: 30px 20px 20px;
+    font-size: 24px;
+  }
+  
+  button {
+    cursor: pointer;
+    font-family: inherit;
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: 0.5px;
+    outline: none;
+    border-radius: 10px;
+    background: var(--main-color);
+    color: #fff;
+  }
+  
+  .tag {
+    font-family: inherit;
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: 0.5px;
+    outline: none;
+    border-radius: 10px;
+    background: var(--grey-color);
+    color: #fff;
+  }
+  
+  .warning {
+    background: var(--warning-color);
+  }
+  
